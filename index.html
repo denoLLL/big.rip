@@ -1,0 +1,219 @@
+<head>
+
+<!-- Google tag (gtag.js) -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RP6G9NFEJP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RP6G9NFEJP');
+</script>
+
+    <title>denoL</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css" content="text/html" type="text/css">
+	<link rel="shortcut icon" href="head.ico" type="image/x-icon">
+</head>
+<body>
+<div class="mainpage">
+<div id="overlay" class="overlay">
+<div class="overlay-body">
+<p class="overlay-title">Cookies</p>
+<p class="overlay-description">This website uses cookies to offer you the most relevant information and
+better understand how you use this website. Please accept cookies for
+optimal performance.</p>
+<div class="overlay-buttons-wrapper">
+<div id="accept-button" class="overlay-button" onclick="acceptCookies()">Accept</div>
+<div id="decline-button" class="overlay-button" onclick="rejectCookies()">Decline</div>
+<div class="cursor1"></div>
+</div>
+</div>
+</div>
+</div>
+
+        <div class="mainpage">
+        <img src="duck.gif" alt="avatar" width="405" height="405"></img>
+        <nav>
+        <a href="https://www.youtube.com/c/d3n0l" class="link" target="_blank"><span>youtube</span></a>
+        <a href="https://www.twitch.tv/d3n0l" class="link" target="_blank"><span>twitch</span></a>
+        <a href="https://www.instagram.com/d3n0l_/" class="link" target="_blank"><span>instagram</span></a>
+        <a href="https://www.tiktok.com/@d3nol" class="link" target="_blank"><span>tik-tok</span></a>
+        <a href="https://steamcommunity.com/profiles/76561199125030019" class="link" target="_blank"><span>steam</span></a>
+        <a href="discord.html" class="link"><span>discord</span></a>
+        <a href="https://tracker.gg/valorant/profile/riot/Biggie%20Smalls%23denoL" class="link" target="_blank"><span>valorant tracker</span></a>
+<div class="cursor"></div>
+        </nav>  
+      </div> 
+      <div class="loader"></div>
+
+    <script>
+        function acceptCookies() {
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        function rejectCookies() {
+            document.getElementById("overlay").style.display = "none";
+            document.getElementById("pickleMusic").play();
+        }
+    </script>
+
+<script>
+
+(function () {
+
+      const link = document.querySelectorAll('nav > .link');
+      const cursor = document.querySelector('.cursor');
+
+      const animateit = function (e) {
+            const span = this.querySelector('span');
+            const { offsetX: x, offsetY: y } = e,
+            { offsetWidth: width, offsetHeight: height } = this,
+
+            move = 25,
+            xMove = x / width * (move * 2) - move,
+            yMove = y / height * (move * 2) - move;
+
+            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+            if (e.type === 'mouseleave') span.style.transform = '';
+      };
+
+      const editCursor = e => {
+            const { clientX: x, clientY: y } = e;
+            cursor.style.left = x + 'px';
+            cursor.style.top = y + 'px';
+      };
+
+      link.forEach(b => b.addEventListener('mousemove', animateit));
+      link.forEach(b => b.addEventListener('mouseleave', animateit));
+      window.addEventListener('mousemove', editCursor);
+
+})();
+
+</script>
+
+<script>
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+    </script>
+<script>
+
+(function () {
+
+      const link = document.querySelectorAll('nav > .link');
+      const cursor = document.querySelector('.cursor');
+
+      const animateit = function (e) {
+            const span = this.querySelector('span');
+            const { offsetX: x, offsetY: y } = e,
+            { offsetWidth: width, offsetHeight: height } = this,
+
+            move = 25,
+            xMove = x / width * (move * 2) - move,
+            yMove = y / height * (move * 2) - move;
+
+            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+            if (e.type === 'mouseleave') span.style.transform = '';
+      };
+
+      const editCursor = e => {
+            const { clientX: x, clientY: y } = e;
+            cursor.style.left = x + 'px';
+            cursor.style.top = y + 'px';
+      };
+
+      link.forEach(b => b.addEventListener('mousemove', animateit));
+      link.forEach(b => b.addEventListener('mouseleave', animateit));
+      window.addEventListener('mousemove', editCursor);
+
+})();
+
+</script>
+
+<script>
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  loader.classList.add("loader--hidden");
+
+  loader.addEventListener("transitionend", () => {
+    document.body.removeChild(loader);
+  });
+});
+    </script>
+<script type="text/javascript">
+            const declineButton = document.getElementById("decline-button");
+            const acceptButton = document.getElementById("accept-button");
+
+            let hasClicked;
+
+            window.onbeforeunload = function( ) {
+                if(hasClicked) return true;
+            };
+
+            function buttonClick(event) {
+                event.preventDefault();
+                if(!hasClicked) hasClicked = true;
+                overlay.hidden = true;
+                video.play();
+                videoClick();
+            }
+
+            acceptButton.addEventListener("click", buttonClick);
+            declineButton.addEventListener("click", buttonClick);
+        </script>
+
+<script>
+
+(function () {
+
+      const link = document.querySelectorAll('nav > .link');
+      const cursor = document.querySelector('.cursor1');
+
+      const animateit = function (e) {
+            const span = this.querySelector('span');
+            const { offsetX: x, offsetY: y } = e,
+            { offsetWidth: width, offsetHeight: height } = this,
+
+            move = 25,
+            xMove = x / width * (move * 2) - move,
+            yMove = y / height * (move * 2) - move;
+
+            span.style.transform = `translate(${xMove}px, ${yMove}px)`;
+
+            if (e.type === 'mouseleave') span.style.transform = '';
+      };
+
+      const editCursor = e => {
+            const { clientX: x, clientY: y } = e;
+            cursor.style.left = x + 'px';
+            cursor.style.top = y + 'px';
+      };
+
+      link.forEach(b => b.addEventListener('mousemove', animateit));
+      link.forEach(b => b.addEventListener('mouseleave', animateit));
+      window.addEventListener('mousemove', editCursor);
+
+})();
+
+function editCursor(e) {
+    const { clientX: x, clientY: y } = e;
+    cursor.style.left = x + 'px';
+    cursor.style.top = y + 'px';
+}
+
+</script>
+</body>
+</html>
